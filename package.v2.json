@@ -1,0 +1,18 @@
+{
+  "DeskMedia": {
+    "name": "桌面摆件影视",
+    "description": "NAS 直连的轻量影视接口，为 ESP32 等局域网桌面屏提供电影/电视剧推荐、订阅状态、海报转换，以及需用户确认的语音搜索与新增订阅。",
+    "labels": "订阅,局域网,ESP32,语音",
+    "version": "0.3.0",
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/subscribe.png",
+    "author": "Nikolai",
+    "level": 1,
+    "v3": false,
+    "release": true,
+    "history": {
+      "v0.3.0": "新增语音搜索和二次确认订阅；改用防重放 HMAC 请求签名，并收紧缓存、请求体与海报处理边界。",
+      "v0.2.0": "热门电影和电视剧分开筛选，已订阅保持合并展示。",
+      "v0.1.0": "首版：热门电影/剧集、已订阅、海报缩略图和设备专用令牌。"
+    }
+  }
+}
